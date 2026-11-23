@@ -15,4 +15,4 @@ Google Colab 笔记本集合。
   - `text_encoders/qwen3.5_9b_flux3_prompt_upsampler_w4a8.safetensors`（可选）
   - `vae/flux2-vae.safetensors`
 - **推荐运行时**：Google Colab **L4 (24GB, `sm_89`)** 或 **A100 (`sm_80`)**（支持 W4A8 硬件加速；T4 `sm_75` 建议关闭 Prompt Upsampler）。
-- **公网访问**：内置 `cloudflared` 临时隧道自动映射 `http://127.0.0.1:8188`。
+- **公网访问**：内置 `cloudflared` 临时隧道自动映射 `http://127.0.0.1:8188`（默认 `--protocol http2` 走 TCP，避免 Colab 容器 UDP/QUIC 拥塞）。
