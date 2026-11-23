@@ -9,7 +9,7 @@ Google Colab 笔记本集合。
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mugendainayumeatono/colab/blob/main/comfyui_flux3_klein_int8.ipynb)
 
 - **文件**：[`comfyui_flux3_klein_int8.ipynb`](./comfyui_flux3_klein_int8.ipynb)
-- **模型来源**：[`black-forest-labs/flux-3-image-klein-comfy`](https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy)
+- **模型来源**：[`black-forest-labs/flux-3-image-klein-comfy`](https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy)（Gated Repo，需在 HuggingFace 同意许可并配置 `HF_TOKEN`）
   - `diffusion_models/flux3-image-klein-int8-convrot.safetensors`
   - `text_encoders/qwen3vl_4b_int8_convrot.safetensors`
   - `text_encoders/qwen3.5_9b_flux3_prompt_upsampler_w4a8.safetensors`（可选）
